@@ -1,0 +1,128 @@
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#main{
+    margin: auto;
+}
+#login-form{
+    margin: auto;
+}
+.hidden {
+    display: none;
+}
+#login-clock{
+    font-size: 150px;
+    color:white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+#main-greeting{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+#main-clock{
+    font-size: 30px;
+    color:white;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+#main-songs{
+    color:white;
+    text-align: center;
+}
+#main-weather{
+    color:white;
+    text-align: right;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+#info{
+    margin-bottom: 40px;
+}
+#login-form input{
+    width: 500px;
+    height: 32px;
+    font-size: 30px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#login-form button{
+    border-color: white;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-weight:bold;
+}
+#myAudio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+}
+#main-songs{
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#login-form input::placeholder{
+    color:white;
+}
+#main-greeting{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#main-todo{
+    width: 500px;
+    height: 480px;
+    margin: auto;
+    background-image: url('../img/3.png');
+}
+#main-todo-form{
+    text-align: center;
+}
+#main-todo-list li button{
+    background-color: transparent;
+    border:0;
+}
+#main-todo input{
+    width: 400px;
+    height: 32px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#main-todo ul{
+    list-style: none;
+    margin-top: 250px;
+    height: 160px;
+    overflow: auto;
+}
+#main-todo li{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
